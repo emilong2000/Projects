@@ -1,0 +1,26 @@
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=E_Library
+--content-root=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Account\Login.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Account\Register.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\AdminHome\Index.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Branch\Detail.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Branch\Index.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Catalog\Add.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Catalog\AssetList.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Catalog\CheckOut.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Catalog\Detail.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Catalog\Hold.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Catalog\Index.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Home\Index.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Patron\Detail.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Patron\Index.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Shared\Error.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Shared\_LandingLayout.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Shared\_LandingPartial.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Shared\_Layout.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Shared\_LoginPartial.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\_ViewImports.cshtml
+--file=C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\Views\_ViewStart.cshtml

@@ -1,0 +1,76 @@
+﻿@model E_Library.ModelViews.Patron.PatronDetaiilModel
+
+<div class="container">
+    <div class="hearder clearfix detailHeading">
+    <h2 class="text-muted">Patron Information</h2>
+    </div>
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>@Model.FirstName @Model.LastName</h2>
+                <div id="patronContact">
+                    <div id="patronTel">Library Card Id: @Model.LibraryCardId</div>
+                    <div id="patronAddress">Address: @Model.Address</div>
+                    <div id="patronTel">Telephone: @Model.PhoneNo</div>
+                    <div id="patronDate">Member Since: @Model.MemberSince</div>
+                    <div id="patronLibrary">Home Library: @Model.HomeLibraryBranch</div>
+                    @if(Model.OverdueFees > 0)
+                    {
+                        <div id="patronHasFees">Current fees due: @Model.OverdueFees</div>
+                    }
+                    else
+                    {
+                        <div id="patronNoFees">No fees currently due.</div>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h4>Assets currently checked out</h4>
+            @if (Model.AssetsCheckedOut.Any())
+            {
+                <div id="patronAssets">
+                    <ul>
+                        @foreach(var checkout in Model.AssetsCheckedOut)
+                        {
+                            <li>
+                                @checkout.LibraryAsset.Title - (Library Asset Id: @checkout.LibraryAsset.Id
+                            <ul>
+                                <li>
+                                    Since: @checkout.Since
+                                </li>
+                                <li>
+                                    Due: @checkout.Until
+                                </li>
+                            </ul>
+                            </li>
+                           
+                        }
+                    </ul>
+                </div>
+            }
+            else
+            {
+                <div>No Item Currently Checked Out</div>
+            }
+        </div>
+        <div class="col-md-4">
+            <h4>Assets current on Hold</h4>
+            @if (Model.Holds.Any())
+            {
+                <div id="patronHolds">
+                    <ul>
+                        @foreach(var hold in Model.Holds)
+                        {
+                            <li>Library Asset.Title - Placed @hold.HoldPlaced.ToString("DD-MM-YY  - HH-mm")</li>
+                        }
+                    </ul>
+                </div>
+            }
+            else
+            {
+               <div>No item is currently on Hold</div>
+            }
+        </div>
+    </div>
+</div>

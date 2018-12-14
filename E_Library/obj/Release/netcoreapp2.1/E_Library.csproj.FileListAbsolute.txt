@@ -1,0 +1,17 @@
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\bin\Release\netcoreapp2.1\E_Library.deps.json
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\bin\Release\netcoreapp2.1\E_Library.runtimeconfig.json
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\bin\Release\netcoreapp2.1\E_Library.runtimeconfig.dev.json
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\bin\Release\netcoreapp2.1\E_Library.dll
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\bin\Release\netcoreapp2.1\E_Library.pdb
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\bin\Release\netcoreapp2.1\LibraryData.dll
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\bin\Release\netcoreapp2.1\LibraryServices.dll
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\bin\Release\netcoreapp2.1\LibraryData.pdb
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\bin\Release\netcoreapp2.1\LibraryServices.pdb
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\obj\Release\netcoreapp2.1\E_Library.csprojAssemblyReference.cache
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\obj\Release\netcoreapp2.1\E_Library.csproj.CoreCompileInputs.cache
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\obj\Release\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\obj\Release\netcoreapp2.1\E_Library.AssemblyInfoInputs.cache
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\obj\Release\netcoreapp2.1\E_Library.AssemblyInfo.cs
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\obj\Release\netcoreapp2.1\E_Library.csproj.CopyComplete
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\obj\Release\netcoreapp2.1\E_Library.dll
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_Library\obj\Release\netcoreapp2.1\E_Library.pdb

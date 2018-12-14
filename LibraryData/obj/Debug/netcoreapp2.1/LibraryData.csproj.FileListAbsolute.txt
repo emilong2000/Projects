@@ -1,0 +1,8 @@
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\LibraryData\bin\Debug\netcoreapp2.1\LibraryData.deps.json
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\LibraryData\bin\Debug\netcoreapp2.1\LibraryData.dll
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\LibraryData\obj\Debug\netcoreapp2.1\LibraryData.csprojAssemblyReference.cache
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\LibraryData\obj\Debug\netcoreapp2.1\LibraryData.csproj.CoreCompileInputs.cache
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\LibraryData\obj\Debug\netcoreapp2.1\LibraryData.AssemblyInfoInputs.cache
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\LibraryData\obj\Debug\netcoreapp2.1\LibraryData.AssemblyInfo.cs
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\LibraryData\bin\Debug\netcoreapp2.1\LibraryData.runtimeconfig.json
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\LibraryData\bin\Debug\netcoreapp2.1\LibraryData.runtimeconfig.dev.json

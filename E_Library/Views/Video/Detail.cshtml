@@ -1,0 +1,65 @@
+﻿@model LibraryData.Models.Video
+
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h2>Video Details</h2>
+
+<div class="jumbotron">
+    <dl class="dl-horizontal col-lg-6">
+        <dt>
+            @Html.DisplayNameFor(model => model.Director)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Director)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StatusId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StatusId)
+        </dd>
+    </dl>
+    <dl class="dl-horizontal col-lg-6">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Year)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Year)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cost)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cost)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageUrl)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ImageUrl)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NumberOfCopies)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NumberOfCopies)
+        </dd>
+    </dl>
+    <div class="text-center">
+        <a asp-action="VideoList">Back to List</a>
+    </div>
+</div>

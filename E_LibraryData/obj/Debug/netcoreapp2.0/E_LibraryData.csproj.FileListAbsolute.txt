@@ -1,0 +1,14 @@
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_LibraryData\bin\Debug\netcoreapp2.0\E_LibraryData.deps.json
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_LibraryData\bin\Debug\netcoreapp2.0\E_LibraryData.dll
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_LibraryData\bin\Debug\netcoreapp2.0\E_Library.dll
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_LibraryData\bin\Debug\netcoreapp2.0\E_Library.pdb
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_LibraryData\obj\Debug\netcoreapp2.0\E_LibraryData.csprojAssemblyReference.cache
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_LibraryData\obj\Debug\netcoreapp2.0\E_LibraryData.csproj.CoreCompileInputs.cache
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_LibraryData\obj\Debug\netcoreapp2.0\E_LibraryData.AssemblyInfoInputs.cache
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_LibraryData\obj\Debug\netcoreapp2.0\E_LibraryData.AssemblyInfo.cs
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_LibraryData\obj\Debug\netcoreapp2.0\E_LibraryData.csproj.CopyComplete
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_LibraryData\bin\Debug\netcoreapp2.0\E_LibraryData.runtimeconfig.json
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_LibraryData\bin\Debug\netcoreapp2.0\E_LibraryData.runtimeconfig.dev.json
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_LibraryData\bin\Debug\netcoreapp2.0\E_LibraryData.pdb
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_LibraryData\obj\Debug\netcoreapp2.0\E_LibraryData.dll
+C:\Users\Emilong\Documents\Visual Studio 2017\Projects\E_Library\E_LibraryData\obj\Debug\netcoreapp2.0\E_LibraryData.pdb

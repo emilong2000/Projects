@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Emilong Library";
+}
+<h3>@ViewData["Title"]</h3>
+
+<div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--4-col">
+        <div class="demo-card-square mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title mdl-card--expand" id="catalog">
+               
+                <h2 class="mdl-card__text homeLabel"> <img src="~/images/catalog.jpg" alt="Catalog"/></h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+                View and manage library assets.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored" asp-controller="Catalog" asp-action="Index">
+                    View Catalog
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mdl-cell mdl-cell--4-col">
+        <div class="demo-card-square mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title mdl-card--expand" id="patrons">
+                
+                <h2 class="mdl-card__text homeLabel"><img src="~/images/patrons.jpg" alt="Patrons"/></h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+                View and manage library patron data.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored" asp-controller="Patron" asp-action="Index">
+                    View Patron index.
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mdl-cell mdl-cell--4-col">
+        <div class="demo-card-square mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title mdl-card--expand" id="branches">
+               
+                <h2 class="mdl-card__text homeLabel"><img src="~/images/branches.jpg" alt="catalog"/></h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+                View and manage Emilong library branches.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored" asp-controller="Branch" asp-action="Index">
+                    View Branch index.
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

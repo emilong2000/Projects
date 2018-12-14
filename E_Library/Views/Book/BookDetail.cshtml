@@ -1,0 +1,77 @@
+﻿@model LibraryData.Models.Book
+
+@{
+    ViewData["Title"] = "BookDetail";
+}
+
+<h2>Book Detail</h2>
+
+<div class="jumbotron">
+    <dl class="dl-horizontal col-lg-6">
+        <dt>
+            @Html.DisplayNameFor(model => model.ISBN)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ISBN)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Author)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Author)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DeweyIndex)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DeweyIndex)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StatusId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StatusId)
+        </dd>
+    </dl>
+    <dl class="dl-horizontal col-lg-6">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Year)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Year)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cost)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cost)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageUrl)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ImageUrl)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NumberOfCopies)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NumberOfCopies)
+        </dd>
+    </dl>
+    <div>
+        <a asp-action="AssetList">Back to List</a>
+    </div>
+</div>

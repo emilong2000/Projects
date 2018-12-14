@@ -1,0 +1,55 @@
+﻿@model RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+}
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-route-returnUrl="@ViewData["ReturnUrl"]" method="post" style="width:350px">
+            <h4>Create a new account.</h4>
+            <hr />
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email" style="width:185px; display:inline-block;"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" style="width:185px; display:inline-block;"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConfirmPassword" style="width:185px; display:inline-block;"></label>
+                <input asp-for="ConfirmPassword" class="form-control" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstName" style="width:185px; display:inline-block;">First Name</label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" style="width:185px; display:inline-block;"> Last Name</label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" style="width:185px; display:inline-block;">Address</label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfBirth" style="width:185px; display:inline-block;">Date of Birth</label>
+                <input asp-for="DateOfBirth" class="form-control" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhoneNo" style="width:185px; display:inline-block;">Telephone</label>
+                <input asp-for="PhoneNo" class="form-control" />
+                <span asp-validation-for="PhoneNo" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-default" style="float:right;">Register</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,71 @@
+﻿@model IEnumerable<LibraryData.Models.LibraryAsset>
+
+@{
+    ViewData["Title"] = "VideoList";
+}
+
+<h2>VideoList</h2>
+
+<p>
+    <a asp-action="Add">Create Video</a>
+</p>
+<table class="table table-striped panel-success table-hover">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.StatusId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Year)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cost)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ImageUrl)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NumberOfCopies)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatusId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Year)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImageUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumberOfCopies)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Update", new { id=item.Id }) |
+                @Html.ActionLink("Details", "Detail", new { id=item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new {id=item.Id})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
